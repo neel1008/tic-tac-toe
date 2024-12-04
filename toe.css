@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.head h2{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.msg{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.hide{
+    display: none;
+
+}
+#container{
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    column-gap: 0px; /* Reduce horizontal spacing between columns */
+    row-gap: 10px; /* Optional: Vertical spacing */
+    
+    margin-top: -310px;
+    margin-left: 80px;
+    padding: 445px;
+    padding-bottom: 45px;
+    /* margin-bottom: 55px; */
+    
+    
+    
+}
+
+
+
+
+.box{
+    
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Add a visible border for the boxes */
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    background-color: #f0f0f0; /* Optional: Background color for the boxes */
+    font-size: 40px; /* Optional: Adjust font size for content */
+    color: #000;
+    
+
+   
+}
+
+#new button{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+#reset button{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 750px;
+    margin-top: -23px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+
